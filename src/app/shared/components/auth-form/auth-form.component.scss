@@ -1,0 +1,40 @@
+/* src/app/shared/components/auth-form/auth-form.component.scss */
+
+div {
+    max-width: 300px;
+    margin: 0 auto;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin-bottom: 15px;
+
+            label {
+                font-weight: bold;
+            }
+
+            input[type="text"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}
